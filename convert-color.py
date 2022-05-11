@@ -33,12 +33,10 @@ def change_svg_file():
     for svg in svg_files.iterdir():
 
         # Open a file and retrieve its content
+        # Change current color to `replace_color`
         with open(svg, 'r') as file:
             file_content = file.read()
-            
-            # Change current color to `replace_color`
             file_content = file_content.replace('F58C6E', replace_color)
-
             file.close()
 
         # Write the new content to the file
