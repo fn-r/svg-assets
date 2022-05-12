@@ -2,11 +2,9 @@ import re
 import subprocess
 from pathlib import Path
 
-path = Path.cwd()
-svg_files = path / 'svg'
+svg_files = Path.cwd() / 'svg'
 
 file_content = ''
-svg_current_fill_color = '#00C7BD'
 
 def push():
     """
@@ -18,7 +16,7 @@ def push():
     def run(*args):
         return subprocess.check_call(['git'] + list(args))
 
-    commit_msg = 'Change SVG color'
+    commit_msg = 'Change SVG properties'
     run('add', '.')
     run('commit', '-m', commit_msg)
     run('push')
