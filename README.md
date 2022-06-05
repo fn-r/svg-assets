@@ -14,7 +14,7 @@ Quickly edit all svg assets in this repo.
 <img src="https://github.com/fn-r/portfolio/blob/main/images/gif/svg-assets.gif" width="100%" alt="svg-assets"/>
 
 ## Tech Used 
-![PYTHON BADGE](https://custom-icon-badges.herokuapp.com/badge/-python-FAFFD1?style=for-the-badge&logo=python&logoColor=FAFFD1&labelColor=000000)
+![PYTHON BADGE](https://custom-icon-badges.herokuapp.com/badge/-python-A5FFCE?style=for-the-badge&logo=python&logoColor=A5FFCE&labelColor=000000) 
 
 ## Optimizations
 Instead of user having to edit the python script. I used regular expression / regex to find existing current properties value. All user need to do is just run the script.
